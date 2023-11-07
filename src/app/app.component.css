@@ -1,0 +1,85 @@
+.password-checker {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  max-width: 1200px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.password-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.password-form-label {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.password-form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #4e5151;
+  border-radius: 12px;
+  outline: none;
+  font-size: 16px;
+  background-color: #f8f8f8;
+}
+
+.password-form-input:focus {
+  border-color: #506b646f;
+  background-color: #fff;
+}
+
+.strength-indicator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.red {
+  border: 1px solid black;
+  width: 40px;
+  height: 25px;
+  margin: 0 5px;
+  border-radius: 40%;
+  background-color: red;
+}
+
+.grey {
+  border: 1px solid black;
+  width: 40px;
+  height: 25px;
+  margin: 0 5px;
+  border-radius: 40%;
+  background-color: grey;
+}
+
+.yellow {
+  border: 1px solid black;
+  width: 40px;
+  height: 25px;
+  margin: 0 5px;
+  border-radius: 40%;
+  background-color: rgb(251, 251, 57);
+}
+
+.green {
+  border: 1px solid black;
+  width: 40px;
+  height: 25px;
+  margin: 0 5px;
+  border-radius: 40%;
+  background-color: green;
+}
